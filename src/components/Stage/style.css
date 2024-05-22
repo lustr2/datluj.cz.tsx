@@ -4,6 +4,7 @@
   margin: 32px auto;
   background-color: #efefef;
   border-radius: 8px;
+  border: 3px solid green;
 }
 
 .stage__mistakes {
@@ -16,4 +17,38 @@
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+}
+
+button {
+  font-size: small;
+  min-width: 30px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-dis {
+  text-decoration-color: black;
+}
+
+.ikonka {
+  display: ruby-text-container;
+  width: 30px;
+  height: 30px;
+
+  padding: 0; /* nebo jiné okraje */
+  overflow: visible; /* zajistí, že obsah bude viditelný */
+  visibility: visible;
+}
+
+.button-invisible {
+  display: block;
+  height: 30px;
+  width: 80px;
+}
+.textik {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
 }

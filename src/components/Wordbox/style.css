@@ -1,4 +1,4 @@
-.wordbox {
+.wordbox,.wordbox--mistake, .wordbox--inactive {
   display: inline-block;
   position: relative;
   padding: 16px;
@@ -16,4 +16,8 @@
 .wordbox--mistake {
   background-color: #e64747;
   color: white;
+}
+
+.wordbox--inactive {
+  background-color: #969292;
 }

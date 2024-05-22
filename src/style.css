@@ -9,7 +9,10 @@ html {
 }
 
 .container {
-  width: 720px;
+  width: 500px;
   margin-right: auto;
   margin-left: auto;
+}
+h1 {
+  font-size: large;
 }
